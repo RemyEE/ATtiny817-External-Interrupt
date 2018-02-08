@@ -8,6 +8,8 @@ You can set pins as input or output on Atmel START project or do it later on you
 ```C
 PORTC.DIR &= ~(1 << 5);			// Set User button as Input
 PORTC.PIN5CTRL |= (1 << 1) | (1 << 0);	//Sense falling edge
+
+sei();			// Enable Interrupt
 ```
 
 ## Set a pin as output (my case: PC0)
