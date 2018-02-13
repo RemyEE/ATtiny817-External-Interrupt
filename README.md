@@ -13,6 +13,9 @@ sei();			// Enable Interrupt
 ```
 
 ## Set a pin as output (my case: PC0)
+```
+PORTC.DIR |= (1 << 0);			// User led as Output
+```
 
 ## Handle Interrupt Service Routine
 ```C
@@ -23,3 +26,7 @@ ISR(PORTC_PORT_vect) {
 ```
 
 Check source code (main.c file only)
+
+## Buy me a Coffee
+
+<a href='https://ko-fi.com/H2H096KN' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=b' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
