@@ -13,7 +13,7 @@ sei();			// Enable Interrupt
 ```
 
 ## Set a pin as output (my case: PC0)
-```
+```C
 PORTC.DIR |= (1 << 0);			// User led as Output
 ```
 
