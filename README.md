@@ -2,6 +2,7 @@
 
 ## Create New Atmel Start project
 http://start.atmel.com/#board/ATtiny817XplainedMini
+
 You can set pins as input or output on Atmel START project or do it later on your code.
 
 ## Enable external interrupt
